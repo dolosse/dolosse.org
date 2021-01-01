@@ -9,8 +9,8 @@ header:
   url: /#services
 - title: Members
   url: /#members
-- title: History
-  url: /#timeline
+#- title: History
+#  url: /#timeline
 - title: Contacts
   url: /#contacts
 - title: Links
