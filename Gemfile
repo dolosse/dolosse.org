@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-gem "github-pages", "= 209"
+gem "jekyll"
+gem "s3_website"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
- gem "jekyll-sitemap", "= 1.4.0"
- gem "jekyll-seo-tag", "= 2.6.1"
+ gem "jekyll-sitemap"
+ gem "jekyll-seo-tag"
 end
